@@ -10,4 +10,10 @@
             Console.WriteLine($"Hello {name.ToUpper()}!");
         }
     }
+
+    public static double CountAvarage(List<int> values)
+    {
+        return values Avarege();
+    }
+
 }
