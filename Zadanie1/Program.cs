@@ -4,16 +4,13 @@
     public static void Main()
     {
         Console.WriteLine("APBD Zadanie 1");
-        List<string> names = ["<name>", "Ana", "Felipe"];
-        foreach (var name in names)
-        {
-            Console.WriteLine($"Hello {name.ToUpper()}!");
-        }
+        List<int> valuesList = new List<int>() { 1, 2, 3, 4, 5, 6 };
+        
     }
 
-    public static double CountAvarage(List<int> values)
+    public static double CountAverage(List<int> values)
     {
-        return values Avarege();
+        return values Average();
     }
 
 }
