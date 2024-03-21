@@ -5,10 +5,10 @@
     {
         Console.WriteLine("APBD Zadanie 1");
         List<int> numbers = [1, 2, 4];
-        foreach (var number in numbers)
+        foreach (var numer in numbers)
         {
-            number = +number;
-            number = number/numbers.length();
+            numer = +numer;
+            numer = numer/numbers.length();
         }
 
         Console.WriteLine({number});
